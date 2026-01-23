@@ -30,17 +30,44 @@ Automatizar os seguintes fluxos no aplicativo:
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📋 Pré-requisitos
 
+- Python 3.x instalado
+- Google Chrome (versão mais recente)
+- ChromeDriver compatível
+- Git instalado
 
 ---
 
-## ⚙️ Como instalar e executar
+## 📂 Estrutura do Projeto
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+```
+projeto-urban-routes/
+├── main.py          # Arquivo principal com os testes
+├── pages.py         # Classes POM para interação com elementos
+├── helpers.py       # Funções auxiliares (código SMS)
+├── requirements.txt # Dependências do projeto
+└── README.md       # Documentação do projeto
+✅ Funcionalidades Testadas
+[x] Definir endereços de origem e destino
+[x] Selecionar tarifa Comfort
+[x] Preencher número de telefone com código SMS
+[x] Adicionar método de pagamento (cartão)
+[x] Escrever comentário para o motorista
+[x] Solicitar extras (cobertor, lenços, sorvetes)
+[x] Confirmar solicitação do táxi
+[x] Verificar modal de busca do motorista
+⚙️ Como instalar e executar
+Clone o repositório:
+git clone https://github.com/Jmoretti-sys/urban-routes-tests.git
+cd urban-routes-tests
+Instale as dependências:
 pip install -r requirements.txt
+Execute os testes:
 pytest main.py -v
+📝 Observações
+Os testes foram desenvolvidos seguindo o padrão Page Object Model (POM)
+Utiliza funções auxiliares para recuperação de códigos SMS
+Inclui tratamento de condições para evitar falhas nos testes
+
+```
