@@ -59,8 +59,8 @@ projeto-urban-routes/
 [x] Verificar modal de busca do motorista
 ⚙️ Como instalar e executar
 Clone o repositório:
-git clone https://github.com/Jmoretti-sys/urban-routes-tests.git
-cd urban-routes-tests
+git clone https://github.com/JMoretti-sys/urban-routes-automation.git
+cd urban-routes-automation
 Instale as dependências:
 pip install -r requirements.txt
 Execute os testes:
